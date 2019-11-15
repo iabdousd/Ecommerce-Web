@@ -204,8 +204,11 @@ and (max-width : 400px) {
     }
     
     .register-container p{
-        color: transparent;
-        padding-top: 8px;
+        display: none;
+    }
+
+    .register-container .just-padding{
+        padding-top: 38px;
     }
 
     .register-container a:nth-child(1){
