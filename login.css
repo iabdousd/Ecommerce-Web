@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#logo{
+    width: 64px;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url('img/login-back.jpg');
+    background-size: cover;
+}
+
+.page-left{
+    flex: 2;
+    display: flex;
+}
+
+.page-left .logo-container{
+    padding: 20px 0 0 20px;
+}
+
+.page-left .logo-text{
+    margin: 36px 0;
+}
+
+.rl{
+    font-size: 18px;
+}
+
+.page-left .logo-text .pb{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.page-right{
+    flex: 1;
+    /* background: url(img/login-right-back.png); */
+    background-size: contain;
+    text-align: center;
+}
+
+.inst{
+    font-size: 20px;
+    padding-bottom: 32px;
+}
+
+.page-right-color form input{
+    display: block;
+    margin: auto;
+    height: 38px;
+    width: 64%;
+    border: none;
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+.page-right-color form input:nth-child(1){
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.page-right-color form input:nth-child(2){
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.page-right-color form .sub-cont{
+    display: flex;
+    padding: 8px 18%;
+    justify-content: space-between;
+}
+
+.page-right-color form .sub-cont .subdiv{
+    width: 40%;
+}
+
+.page-right-color form .sub-cont input{
+    display: inline-block;
+    width: 100%;
+    border-radius: 4px;
+    background: #fff;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.page-right-color form .sub-cont a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.register-container{
+    margin-top: 32vh;
+}
+
+.register-container p{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.register-container a{
+    color: #fff;
+    padding: 8px 24%;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    border: solid #fff 2px;
+}
+
+.page-right-color{
+    /* background: #111; */
+    /* background: rgba(26, 87, 145, 0.7); */
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    padding-top: 25vh;
+    color: white;
+}
